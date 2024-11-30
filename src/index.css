@@ -10,4 +10,7 @@ html {
   .center {
     @apply flex justify-center items-center;
   }
+  .brd {
+    @apply border-2 border-red-600;
+  }
 }

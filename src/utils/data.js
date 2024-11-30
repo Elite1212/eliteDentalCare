@@ -15,15 +15,16 @@ const data = {
   doctors: [
     {
       name: "Dr. K. Dinakar",
-      degrees: "B.D.S, M.D.S,(Osmania, HYD.)",
+      // degrees: "B.D.S, M.D.S,(Osmania, HYD.)",
+      degrees: "B.D.S, M.D.S",
       specialization: "Oral & Maxillofacial Surgeon & Implantologist",
-      image: "",
+      image: "clinic/dinakar.png",
     },
     {
       name: "Dr. B. Shanthi Priya",
       degrees: "B.D.S",
       specialization: "Cosmetic Surgeon & Implantologist",
-      image: "",
+      image: "clinic/shanthi.jpg",
     },
   ],
   pages: ["home", "Services", "About Us", "Book Your Appointment", "Gallery"],
