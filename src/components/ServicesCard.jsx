@@ -14,7 +14,7 @@ const ServicesCard = ({ service, no }) => {
       <div className=" h-[200px] lg:h-[300px] ">
         <img
           className="w-full h-full object-cover rounded-md"
-          src={`/${service.images}`}
+          src={`/services_images/${service.images}`}
         />
       </div>
     </div>
