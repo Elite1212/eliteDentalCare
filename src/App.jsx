@@ -1,9 +1,9 @@
-import About from "./pages/About";
+import Gallery from "./pages/Gallery";
 
 const App = () => {
   return (
     <>
-      <About />
+      <Gallery />
     </>
   );
 };

@@ -39,7 +39,7 @@ const About = () => {
       {/* Hero Image */}
       <section>
         <img
-          src="/clinic/about.JPG"
+          src="/clinic/9.JPG"
           className="w-full h-[25vh] object-cover sm:h-[30vh] md:h-[40vh] lg:h-[80vh]"
         />
       </section>
