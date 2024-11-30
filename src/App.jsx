@@ -1,9 +1,9 @@
-import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
     <>
-      <Gallery />
+      <Contact />
     </>
   );
 };
