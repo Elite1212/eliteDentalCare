@@ -54,7 +54,7 @@ const data = {
       images: "dental_implants.jpg",
     },
     {
-      title: "Facial Fractures ",
+      title: "Facial Fractures",
       description:
         "Our specialized team provides expert treatment for facial fractures resulting from accidents, injuries, or trauma. We offer comprehensive care including diagnosis, surgical repair, and post-operative rehabilitation to restore both function and aesthetics. Using advanced surgical techniques and 3D imaging technology, we ensure precise reconstruction and optimal healing outcomes.",
       images: "facial_fracture.avif",
@@ -100,6 +100,18 @@ const data = {
       description:
         "Professional teeth whitening is a safe and effective cosmetic dental procedure that helps remove stains and discoloration, revealing a brighter, more vibrant smile. Our advanced whitening techniques provide noticeable results while protecting your tooth enamel and minimizing sensitivity. We offer both in-office treatments and take-home whitening options to suit your preferences and lifestyle needs.",
       images: "teeth_whitening.webp",
+    },
+    {
+      title: "Laser flap Surgeries",
+      description:
+        "Laser flap surgery is an advanced periodontal procedure that uses precise laser technology to treat gum disease and perform soft tissue modifications. Our state-of-the-art laser equipment allows for minimally invasive treatment with reduced bleeding, faster healing times, and improved patient comfort compared to traditional surgical methods. The procedure is particularly effective for treating periodontal pockets and regenerating healthy gum tissue.",
+      images: "laser_flap.jpg",
+    },
+    {
+      title: "Child dental care",
+      description:
+        "Our dedicated pediatric dental care services are specially designed to make dental visits a positive experience for children. We provide comprehensive preventive care, including cleanings, fluoride treatments, and sealants, along with education on proper oral hygiene habits. Our child-friendly environment and gentle approach help children develop a lifetime of healthy dental practices.",
+      images: "child_dental.webp",
     },
   ],
 };
