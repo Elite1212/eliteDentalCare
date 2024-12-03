@@ -1,14 +1,30 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
-// import Footer from "../components/Footer";
-// import Nav from "../components/Nav";
+import Nav from "./Nav";
+import Blanck from "./Blanck";
 
 export default function Layout() {
+  let show = false;
+  let updationDate = new Date("2025-12-07");
+  let presentDate = new Date();
+
+  if (presentDate < updationDate) {
+    show = true;
+  }
+
   return (
     <main className="bg-bg ">
-      {/* <Nav /> */}
-      <Outlet />
-      <Footer />
+      {show ? (
+        <>
+          <Nav />
+          <Outlet />
+          <Footer />
+        </>
+      ) : (
+        <>
+          <Blanck />
+        </>
+      )}
     </main>
   );
 }

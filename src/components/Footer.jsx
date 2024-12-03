@@ -89,7 +89,7 @@ export default function Footer() {
             href="tel:+91-9014601768"
             className="text-white text-md font-normal"
           >
-            9014601768
+            +91-9014601768
           </a>
         </div>
         <div className="flex items-center  gap-2">

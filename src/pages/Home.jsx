@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ServicesCard from "../components/ServicesCard";
 import data from "../utils/data";
 
@@ -44,12 +45,12 @@ const Home = () => (
         </p>
       </div>
       <div>
-        <a
+        <Link
+          to="/contact"
           className="text-white bg-primary text-xl rounded-full px-7 py-2 font-bold md:text-2xl"
-          href="/contact"
         >
           Book Appoinment
-        </a>
+        </Link>
       </div>
     </section>
     {/* About Section */}
@@ -93,11 +94,11 @@ const Home = () => (
         })}
       </section>
       <div className="center">
-        <a>
-          <button className="text-white bg-primary text-xl rounded-full px-7 py-2 font-bold md:text-2xl">
+        <Link to="/services">
+          <p className="text-white bg-primary text-xl rounded-full px-7 py-2 font-bold md:text-2xl">
             View All Services
-          </button>
-        </a>
+          </p>
+        </Link>
       </div>
     </section>
     {/* About section */}

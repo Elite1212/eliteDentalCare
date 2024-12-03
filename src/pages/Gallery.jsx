@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Gallery = () => {
   const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
@@ -10,9 +12,9 @@ const Gallery = () => {
           <h1 className="text-4xl font-semibold text-gray-800 tracking-wider md:text-3xl">
             Our Gallery
           </h1>
-          <a className="text-white bg-primary text-xl rounded-full px-5 py-1 font-bold tracking-wide md:text-2xl">
+          <Link to="/contact" className="text-white bg-primary text-xl rounded-full px-5 py-1 font-bold tracking-wide md:text-2xl">
             <h1>Book Your Appoinment</h1>
-          </a>
+          </Link>
         </div>
         <div>
           <svg
