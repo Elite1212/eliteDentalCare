@@ -14,3 +14,8 @@ html {
     @apply border-2 border-red-600;
   }
 }
+
+ion-icon {
+  color: white;
+  font-size: 30px;
+}

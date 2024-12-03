@@ -18,11 +18,11 @@ export default function Contact() {
     setName("");
   };
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen w-full bg-bg">
       <div className="w-full lg:w-full h-[40vh] lg:h-[80vh]">
         <img
           src="/clinic/1.JPG"
-          className="w-full h-full object-cover object-bottom"
+          className="w-full h-full object-cover object-bottom md:object-center lg:object-center"
         />
       </div>
       <h4 className="text-secondary text-xl text-center mt-5 sm:text-xl sm:text-left sm:px-10 md:text-3xl lg:px-20 md:py-10 ">
