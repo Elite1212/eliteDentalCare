@@ -41,7 +41,8 @@ const Home = () => (
       <div className="flex flex-col gap-5">
         <p className="text-xl font-semibold md:text-2xl">
           {`"`}
-          Braces or Invisalign? 🦷 Choose your path to a perfect smile
+          {/* Braces or Invisalign? 🦷 Choose your path to a perfect smile */}
+          Braces or Invisalign? Choose your path to a perfect smile
           {`"`}
         </p>
         <p className="text-xl font-normal md:text-2xl">

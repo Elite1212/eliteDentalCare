@@ -4,17 +4,14 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
-//   const location = useLocation();
+  //   const location = useLocation();
 
   const links = [
     {
       name: "Home",
       href: "/",
     },
-    {
-      name: "Contact",
-      href: "/contact",
-    },
+
     {
       name: "Gallery",
       href: "/gallery",
@@ -27,8 +24,12 @@ export default function Nav() {
       name: "About",
       href: "/about",
     },
+    {
+      name: "Contact",
+      href: "/contact",
+    },
   ];
-//   const show = location.pathname == "/" ? false : true;
+  //   const show = location.pathname == "/" ? false : true;
   return (
     <nav
       className={` w-full py-2 px-4 md:flex md:justify-between md:px-10 md:py-5 relative z-50 `}

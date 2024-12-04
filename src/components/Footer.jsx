@@ -8,16 +8,16 @@ export default function Footer() {
       href: "/",
     },
     {
-      name: "Contact",
-      href: "/contact",
-    },
-    {
       name: "Gallery",
       href: "/gallery",
     },
     {
       name: "Services",
       href: "/services",
+    },
+    {
+      name: "Contact",
+      href: "/contact",
     },
   ];
 
@@ -108,7 +108,7 @@ export default function Footer() {
             <ion-icon name="logo-whatsapp"></ion-icon>
           </div>
           <a
-            href="http://wa.me/9014601768"
+            href="http://wa.me/918143370375"
             className="text-white text-md font-normal"
           >
             +91-9014601768
@@ -120,7 +120,7 @@ export default function Footer() {
             <ion-icon name="logo-youtube"></ion-icon>
           </div>
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@ELITEDENTALCARE_KURNOOL"
             className="text-white text-md font-normal"
           >
             Elite Dental Care
@@ -131,7 +131,7 @@ export default function Footer() {
             <ion-icon name="logo-instagram"></ion-icon>
           </div>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/_elite_dental_care?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
             className="text-white text-md font-normal"
           >
             elite_dental_care{" "}
@@ -142,7 +142,7 @@ export default function Footer() {
             <ion-icon name="logo-facebook"></ion-icon>
           </div>
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/profile.php?id=61569676311948&mibextid=ZbWKwL"
             className="text-white text-md font-normal"
           >
             Elite Dental Care
