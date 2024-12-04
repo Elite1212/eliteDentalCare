@@ -19,6 +19,10 @@ export default function Footer() {
       name: "Contact",
       href: "/contact",
     },
+    {
+      name: "About",
+      href: "/about",
+    },
   ];
 
   return (
@@ -111,7 +115,7 @@ export default function Footer() {
             href="http://wa.me/918143370375"
             className="text-white text-md font-normal"
           >
-            +91-9014601768
+            +91-8143370375
           </a>
         </div>
 
