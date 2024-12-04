@@ -28,10 +28,14 @@ const Home = () => (
   <div className="w-full min-h-screen bg-bg">
     {/* Hero Section */}
     <section className="w-full h-[50vh] bg-gradient-to-br from-white to-primary px-5 py-5 flex flex-col  justify-center gap-5 sm:px-10 md:px-14 lg:px-20 md:gap-10 md:h-[60vh]">
+      <h1 className="text-3xl font-bold text-balck tracking-wide md:text-6xl text-center text-[#996900]">
+        Elite Dental Care
+      </h1>
       <div className="flex items-center gap-5 ">
         <div className="w-1 h-16 bg-red-500"></div>
+
         <h1 className="text-3xl font-bold text-balck tracking-wide md:text-4xl">
-          Affordable Dental Clinic in Kurnool
+          Affordable And Best Dental Clinic in Kurnool
         </h1>
       </div>
       <div className="flex flex-col gap-5">
@@ -56,7 +60,9 @@ const Home = () => (
     {/* About Section */}
     <section className="px-5 my-5 flex flex-col gap-5 md:px-10 lg:px-14 md:gap-10 md:my-10">
       <div className="flex flex-col items-center gap-2">
-        <h3 className="text-2xl font-bold tracking-wider">About Elite</h3>
+        <h3 className="text-2xl font-bold tracking-wider">
+          About Elite Dental Care
+        </h3>
         <div className="h-[3px] w-32 bg-primary"></div>
       </div>
       <div className="flex flex-col gap-5 sm:flex-row md:gap-10 lg:gap-20">

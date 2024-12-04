@@ -2,8 +2,8 @@ import { DoctorsCard } from "../components/DoctorsCard";
 import data from "../utils/data";
 const About = () => {
   const dataa = [
-    "We're here to make your smile shine. Our clinic is led by two skilled and experienced dentists: Dr. Dinakar and Dr. Shanti Priya. Together, they have helped many people keep their teeth healthy and their smiles bright.",
-    "At Elite Dental Care, we believe that visiting the dentist should be easy and comfortable. Whether its your first visit or your tenth, well take good care of you. From regular check-ups to fixing toothaches, were here to help every step of the way.",
+    "We're here to make your smile shine. Our clinic is led by two skilled and experienced dentists: Dr. Dinakar and Dr. Shanti Priya. Together, we have helped many people keep their teeth healthy and their smiles bright.",
+    "At Elite Dental Care, we believe that visiting the dentist should be easy and comfortable. Whether its your first visit or your tenth, we'll take good care of you. From regular check-ups to fixing toothaches, were here to help every step of the way.",
     "We use the latest tools to ensure you get the best care possible. But most importantly, we take time to explain everything in simple words, so you know exactly whats happening with your teeth",
     "Thank you for choosing Elite Dental Care. Lets work together for a happier, healthier smile!",
   ];

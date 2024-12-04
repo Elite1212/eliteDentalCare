@@ -35,7 +35,7 @@ export default function Nav() {
     >
       <div className="flex items-center justify-between">
         {!open && (
-          <Link to={"/"} className="w-[80px] md:w-[90px]">
+          <Link to={"/"} className="w-[80px] md:w-[120px]">
             {
               <img
                 alt="logo"

@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
           <div className="space-y-1">
             <h3 className="text-lg font-normal text-primary">Location</h3>
-            <p className="text-white text-sm font-light">
+            <p className="text-white text-base font-light">
               1st Floor, Skanda Shops & Spaces Building, Beside H.P. Petrol
               Bunk, Near D-Mart, Bellary Chowrasta, KURNOOL
             </p>

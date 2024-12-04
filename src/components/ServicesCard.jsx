@@ -11,7 +11,7 @@ const ServicesCard = ({ service, no }) => {
         <p className="text-sm  sm:w-[50vw] md:text-lg lg:w-[60vw] lg:text-2xl">{service.description}</p>
       </div>
 
-      <div className=" h-[200px] lg:h-[300px] ">
+      <div className=" h-[200px] lg:h-[300px] center">
         <img
           className="w-full h-full object-cover rounded-md"
           src={`/services_images/${service.images}`}

@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -6,12 +7,51 @@ export default function Contact() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const submit = async () => {
+
+  const form = useRef();
+
+  const serviceId = "service_elv17es";
+  const templateId = "template_rri8xao";
+  const publicKey = "qQ5UrayTS4lKd-z_u";
+
+  // const sendEmail = () => {
+  //   // e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(serviceId, templateId, form.current, {
+  //       publicKey: publicKey,
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log("SUCCESS!");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error);
+  //       }
+  //     );
+  // };
+  const submit = async (e) => {
+    e.preventDefault();
     console.log(name, email, phone, message);
     setLoading(true);
+    // sendEmail();
+    emailjs
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          setLoading(false);
+          alert("Message Sent");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          setLoading(false);
+          alert("Message Sent");
+        }
+      );
 
-    setLoading(false);
-    alert("Message Sent");
     setEmail("");
     setPhone("");
     setMessage("");
@@ -21,7 +61,7 @@ export default function Contact() {
     <section className="min-h-screen w-full bg-bg">
       <div className="w-full lg:w-full h-[40vh] lg:h-[80vh]">
         <img
-          src="/clinic/1.JPG"
+          src="/clinic/9.JPG"
           className="w-full h-full object-cover object-bottom md:object-center lg:object-center"
         />
       </div>
@@ -29,12 +69,17 @@ export default function Contact() {
         We’d love to hear from you
       </h4>
       <div className="flex flex-col gap-5 md:flex-row lg:px-20">
-        <div className="w-full py-5 px-10 space-y-5 ">
+        <form
+          ref={form}
+          onSubmit={submit}
+          className="w-full py-5 px-10 space-y-5 "
+        >
           <div className="w-full space-y-5 ">
             <h1 className="text-center text-black text-2xl font-semibold md:text-left ">
               Name
             </h1>
             <input
+              name="from_name"
               onChange={(e) => setName(e.target.value)}
               value={name}
               placeholder="Enter your Name"
@@ -47,6 +92,7 @@ export default function Contact() {
               Phone Number
             </h1>
             <input
+              name="from_phone"
               onChange={(e) => setPhone(e.target.value)}
               value={phone}
               placeholder="Enter your Phone Number"
@@ -59,6 +105,7 @@ export default function Contact() {
               Email Id
             </h1>
             <input
+              name="from_email"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
               placeholder="Enter your Email ID"
@@ -71,6 +118,7 @@ export default function Contact() {
               Message
             </h1>
             <textarea
+              name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               maxLength={500}
@@ -80,15 +128,13 @@ export default function Contact() {
             />
           </div>
           <div className="w-full center">
-            <button
-              onClick={submit}
-              disabled={loading}
+            <input
               className="bg-primary px-4 py-2 text-white font-semibold text-xl rounded-md"
-            >
-              {loading ? "Sending..." : "SUBMIT"}
-            </button>
+              type="submit"
+              value={loading ? "Sending..." : "SUBMIT"}
+            />
           </div>
-        </div>
+        </form>
         <div className="w-full px-10 space-y-5">
           <div className="space-y-3">
             <h4 className="text-black text-2xl font-semibold">Address</h4>

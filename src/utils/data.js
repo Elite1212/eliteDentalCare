@@ -37,7 +37,7 @@ const data = {
     "Smile Designing",
     "Complete Dentures",
     "Orthodontic Treatments",
-    "Complete Fillings",
+    "Composite Fillings",
     "Teeth Whitening",
   ],
 
@@ -49,19 +49,19 @@ const data = {
       images: "root_canal.jpeg",
     },
     {
-      title: "Dental Implants",
+      title: "Full Mouth Implants",
       description:
         "Dental implants are permanent artificial tooth roots that provide a strong foundation for fixed or removable replacement teeth. Our skilled dental team uses state-of-the-art technology and premium materials to create natural-looking implants that match your existing teeth. The procedure is performed with precision and care, ensuring long-lasting results and restored confidence in your smile.",
-      images: "dental_implants.jpg",
+      images: "full-mouth-implants.jpg",
     },
     {
       title: "Facial Fractures",
       description:
         "Our specialized team provides expert treatment for facial fractures resulting from accidents, injuries, or trauma. We offer comprehensive care including diagnosis, surgical repair, and post-operative rehabilitation to restore both function and aesthetics. Using advanced surgical techniques and 3D imaging technology, we ensure precise reconstruction and optimal healing outcomes.",
-      images: "facial_fracture.avif",
+      images: "fractures1.png",
     },
     {
-      title: "Impactions",
+      title: "Impactions/ 3rd Molar Surgeries",
       description:
         "Impacted teeth, particularly wisdom teeth, can cause significant discomfort and oral health issues if left untreated. Our dental experts specialize in the safe and efficient removal of impacted teeth using minimally invasive techniques. We provide comprehensive care from diagnosis through recovery, ensuring patient comfort and optimal healing throughout the process.",
       images: "impactions.jpg",
@@ -70,7 +70,7 @@ const data = {
       title: "Fixed Teeth",
       description:
         "Fixed teeth solutions, also known as permanent dental restorations, offer a reliable way to replace missing or damaged teeth. Our range of fixed dental solutions includes bridges, crowns, and permanent dentures, all custom-designed to match your natural teeth perfectly. We use high-quality materials and precise fitting techniques to ensure your fixed teeth restorations are comfortable, durable, and aesthetically pleasing.",
-      images: "fixed_teeth.webp",
+      images: "fixed_teeth.jpg",
     },
     {
       title: "Smile Designing",
@@ -91,10 +91,10 @@ const data = {
       images: "orthodontic_treatments.png",
     },
     {
-      title: "Complete Fillings",
+      title: "Composite Fillings",
       description:
-        "Complete fillings are dental restorations used to repair teeth damaged by decay, cracks, or wear. Our dental team uses high-quality composite materials that match your natural tooth color, ensuring both functional and aesthetic restoration. We employ advanced techniques to ensure proper bonding and long-lasting results that protect your teeth from further damage.",
-      images: "dental_filling.jpg",
+        "Composite Fillings are dental restorations used to repair teeth damaged by decay, cracks, or wear. Our dental team uses high-quality composite materials that match your natural tooth color, ensuring both functional and aesthetic restoration. We employ advanced techniques to ensure proper bonding and long-lasting results that protect your teeth from further damage.",
+      images: "composite-fillings.jpg",
     },
     {
       title: "Teeth Whitening",
@@ -103,16 +103,22 @@ const data = {
       images: "teeth_whitening.webp",
     },
     {
-      title: "Laser flap Surgeries",
+      title: "Laser Flap Surgeries",
       description:
         "Laser flap surgery is an advanced periodontal procedure that uses precise laser technology to treat gum disease and perform soft tissue modifications. Our state-of-the-art laser equipment allows for minimally invasive treatment with reduced bleeding, faster healing times, and improved patient comfort compared to traditional surgical methods. The procedure is particularly effective for treating periodontal pockets and regenerating healthy gum tissue.",
       images: "laser_flap.jpg",
     },
     {
-      title: "Child dental care",
+      title: "Child Dental Care",
       description:
         "Our dedicated pediatric dental care services are specially designed to make dental visits a positive experience for children. We provide comprehensive preventive care, including cleanings, fluoride treatments, and sealants, along with education on proper oral hygiene habits. Our child-friendly environment and gentle approach help children develop a lifetime of healthy dental practices.",
       images: "child_dental.webp",
+    },
+    {
+      title: "Invisalign",
+      description:
+        "Invisalign is a clear aligner system that discreetly straightens teeth. Custom-made aligners are worn 20-22 hours daily and changed biweekly. They’re removable, allowing easy eating and cleaning, offering a comfortable alternative to braces for mild to moderate orthodontic cases",
+      images: "invisalign.jpeg",
     },
   ],
 };
