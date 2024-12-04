@@ -10,9 +10,13 @@ export default function Contact() {
 
   const form = useRef();
 
-  const serviceId = "service_elv17es";
-  const templateId = "template_rri8xao";
-  const publicKey = "qQ5UrayTS4lKd-z_u";
+  // const serviceId = "service_elv17es";
+  // const templateId = "template_rri8xao";
+  // const publicKey = "qQ5UrayTS4lKd-z_u";
+
+  const serviceId = "service_ztyahl3";
+  const templateId = "template_1ctvzma";
+  const publicKey = "D0q0Pur1iNCEVBlWG";
 
   // const sendEmail = () => {
   //   // e.preventDefault();
