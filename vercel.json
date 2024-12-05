@@ -1,4 +1,25 @@
 {
-    "rewrites": [{ "source": "/about", "destination": "/about" }]
+    "routes": [
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/about",
+            "dest":"/"
+        },
+        {
+            "src":"/contact",
+            "dest":"/"
+        },
+        {
+            "src":"/gallery",
+            "dest":"/"
+        },
+        {
+            "src":"/connect-marketing",
+            "dest":"/"
+        }
+    ]
   }
   
